@@ -34,26 +34,15 @@ html, body {
         -webkit-align-items: center;
         align-items: center;
         flex-direction: column;
-    }
-
-    .swiper-slide .align-left{
-      text-align: left;
-      -webkit-box-pack: start;
-      -ms-flex-pack: start;
-      -webkit-justify-content: start;
-      justify-content: start;
-      -webkit-box-align: start;
-      -ms-flex-align: start;
-      -webkit-align-items: start;
-      align-items: start;
+        -webkit-flex-direction: column;
     }
 
     .parallax-bg {
        position: absolute;
        left: 0;
        top: 0;
-       width: 100%;
-       height: 130%;
+       width: 130%;
+       height: 100%;
        -webkit-background-size: cover;
        background-size: cover;
        background-position: center;
@@ -64,7 +53,7 @@ html, body {
        font-weight: 300;
    }
    .swiper-slide .subtitle {
-       font-size: 26px;
+       font-size: 21px;
    }
    .swiper-slide .text {
        font-size: 14px;
@@ -72,40 +61,27 @@ html, body {
        line-height: 1.3;
    }
 
-   .swiper-slide > *{
-     opacity: 0;
+   #slide2 .title{
+     position: absolute;
+     bottom:30%;
+     left:10px;
+     z-index: 11;
    }
 
-   .swiper-slide .animated.order1{
-     animation-delay: .5s;
-   }
-   .swiper-slide .animated.order2{
-     animation-delay: 1s;
-   }
-
-   .swiper-slide .animated.order3{
-     animation-delay: 1.5s;
+   #slide2 .subtitle{
+     position: absolute;
+     bottom:25%;
+     left:15px;
+     z-index: 10;
    }
 
-   .swiper-slide .animated.order4{
-     animation-delay: 2s;
-   }
-
-   .swiper-slide .animated.order5{
-     animation-delay: 2.5s;
-   }
-
-   .swiper-slide .animated.order6{
-     animation-delay: 3s;
-   }
-
-   .swiper-slide .animated.order7{
-     animation-delay: 3.5s;
-   }
-
-   .swiper-slide .animated.order8{
-     animation-delay: 4s;
-   }
-   .swiper-slide .animated.order9{
-     animation-delay: 4.5s;
+   #slide2 .img{
+     position: absolute;
+     top:0;
+     left:0;
+     right:0;
+     bottom:0;
+     background: url(img/bg-1.png);
+     background-position: center;
+     background-size: cover;
    }

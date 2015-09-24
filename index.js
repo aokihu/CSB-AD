@@ -10,7 +10,13 @@ $(function(){
     // roundLengths:true,
     // parallax: true,
     // hashnav: true,
-        speed: 500
+        speed: 500,
+       onInit: swiper => {
+          // 初始化动画效果
+          // 页面加载时候隐藏所有动画元素
+          swiperAnimateCache(swiper); //隐藏动画元素
+          swiperAnimate(swiper); //初始化完成开始动画
+        }
   });
 
   $body.css({'background-color':'#'+backgroundColors[0]});
@@ -25,13 +31,7 @@ $(function(){
       $body.css({'background':'#'+color});
     },100);
 
-    // 添加动画
-    let slide =  $('#swiper-wrapper .swiper-slide')[swiper.activeIndex];
-    $(slide).find('> *').each((index,item) => {
-      let $item = $(item);
-      let className = $item.attr('class');
-      $item.attr('class', className.replace('animate','animated'));
-    });
+    swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
 
   });
 
