@@ -7,8 +7,8 @@ $(function(){
   var mySwiper = new Swiper ('.swiper-container', {
     // Optional parameters
     direction: 'vertical',
-    roundLengths:true,
-    parallax: true,
+    // roundLengths:true,
+    // parallax: true,
     // hashnav: true,
         speed: 500
   });

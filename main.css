@@ -36,6 +36,18 @@ html, body {
         flex-direction: column;
     }
 
+    .swiper-slide .align-left{
+      text-align: left;
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
+      -webkit-justify-content: start;
+      justify-content: start;
+      -webkit-box-align: start;
+      -ms-flex-align: start;
+      -webkit-align-items: start;
+      align-items: start;
+    }
+
     .parallax-bg {
        position: absolute;
        left: 0;
