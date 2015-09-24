@@ -16,26 +16,6 @@ html, body {
         height: 100%;
     }
 
-    #welcome{
-      /* Center slide text vertically */
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      -webkit-justify-content: center;
-      justify-content: center;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      -webkit-align-items: center;
-      align-items: center;
-      flex-direction: column;
-      background-color: black;
-      height: 100%;
-      animation-delay: 2s;
-    }
-
     .swiper-slide {
         text-align: center;
         font-size: 18px;
@@ -60,21 +40,60 @@ html, body {
        position: absolute;
        left: 0;
        top: 0;
-       width: 130%;
-       height: 100%;
+       width: 100%;
+       height: 130%;
        -webkit-background-size: cover;
        background-size: cover;
        background-position: center;
    }
+
    .swiper-slide .title {
        font-size: 41px;
        font-weight: 300;
    }
    .swiper-slide .subtitle {
-       font-size: 21px;
+       font-size: 26px;
    }
    .swiper-slide .text {
        font-size: 14px;
        max-width: 400px;
        line-height: 1.3;
+   }
+
+   .swiper-slide > *{
+     opacity: 0;
+   }
+
+   .swiper-slide .animated.order1{
+     animation-delay: .5s;
+   }
+   .swiper-slide .animated.order2{
+     animation-delay: 1s;
+   }
+
+   .swiper-slide .animated.order3{
+     animation-delay: 1.5s;
+   }
+
+   .swiper-slide .animated.order4{
+     animation-delay: 2s;
+   }
+
+   .swiper-slide .animated.order5{
+     animation-delay: 2.5s;
+   }
+
+   .swiper-slide .animated.order6{
+     animation-delay: 3s;
+   }
+
+   .swiper-slide .animated.order7{
+     animation-delay: 3.5s;
+   }
+
+   .swiper-slide .animated.order8{
+     animation-delay: 4s;
+   }
+   .swiper-slide .animated.order9{
+     animation-delay: 4.5s;
    }

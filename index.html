@@ -14,30 +14,33 @@
     </script>
   </head>
   <body>
-    <div id="welcome" class='animated fadeOut'>
-      <img src="img/logo-reasonbox.svg" width="60%" alt="Reasonbox">
-    </div>
     <!-- Slider main container -->
 <div class="swiper-container">
     <!-- Additional required wrapper -->
-    <div class="swiper-wrapper">
-      <div class="swiper-slide" class='animated fadeIn'>
-              <div class="title" data-swiper-parallax="-100">人人乐享音乐</div>
-              <div class="subtitle" data-swiper-parallax="100">Music For Everyone</div>
-          </div>
-          <div class="swiper-slide">
-              <div class="title" data-swiper-parallax="-100">传统背景音乐烦恼</div>
-                <ul data-swiper-parallax="10">
-                  <li>布线烦恼</li>
-                </ul>
-          </div>
-          <div class="swiper-slide">
-              <div class="title" data-swiper-parallax="-100">Slide 3</div>
-              <div class="subtitle" data-swiper-parallax="-200">Subtitle</div>
-              <div class="text" data-swiper-parallax="-300">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla laoreet justo vitae porttitor porttitor. Suspendisse in sem justo. Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod. Aliquam hendrerit lorem at elit facilisis rutrum. Ut at ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec, tincidunt ut libero. Aenean feugiat non eros quis feugiat.</p>
-              </div>
-          </div>
+    <div class="swiper-wrapper" id="swiper-wrapper">
+      <div class="swiper-slide" data-hash="slide1">
+            <img src="img/logo-reasonbox.svg" class="animated fadeInUp order1" width="70%" data-swiper-parallax="-200">
+            <img src="img/title-1.svg" class="animated fadeInDown order2" width="80%" data-swiper-parallax="-100">
+        </div>
+        <div class="swiper-slide" data-hash="slide2">
+            <div class="title animate fadeInUp" data-swiper-parallax="-300">背景音乐系统</div>
+            <div class="subtitle animate fadeInDown order1" data-swiper-parallax="-100">布线太烦</div>
+        </div>
+        <div class="swiper-slide" data-hash="slide3">
+            <div class="title animate fadeInUp" data-swiper-parallax="-300">WiFi连接音乐</div>
+            <div class="subtitle animate fadeInDown order1" data-swiper-parallax="-100">配置太复杂</div>
+        </div>
+        <div class="swiper-slide" data-hash="slide4">
+            <div class="title animate fadeInUp" data-swiper-parallax="-300">便携式音箱</div>
+            <div class="subtitle animate fadeInDown order1" data-swiper-parallax="-100">要没充电要么占插座</div>
+        </div>
+        <div class="swiper-slide" data-hash="slide5">
+            <div class="title animate fadeInUp" data-swiper-parallax="-300">我要的背景音乐</div>
+            <div class="subtitle animate fadeInDown order1" data-swiper-parallax="-100">不用布线</div>
+            <div class="subtitle animate fadeInDown order3" data-swiper-parallax="-100">不用配置</div>
+            <div class="subtitle animate fadeInDown order5" data-swiper-parallax="-100">不用充电</div>
+            <div class="subtitle animate fadeInDown order7" data-swiper-parallax="-100">不占插座</div>
+        </div>
     </div>
 </div>
 </html>
