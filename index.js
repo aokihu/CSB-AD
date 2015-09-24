@@ -1,6 +1,6 @@
 $(function(){
 
-  var backgroundColors = ['1e88e5','ff4081','d81b60','ff4081'];
+  var backgroundColors = ['1e88e5','c51162','d81b60','ff4081','ec407a','1565c0'];
 
   let $body = $('body').first();
 
