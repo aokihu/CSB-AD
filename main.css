@@ -88,6 +88,15 @@ html, body {
      left:15px;
      bottom:0;
      width: 140%;
+     z-index: 11;
+   }
+
+   #slide2 .bg{
+     position: absolute;
+     left:0;
+     bottom:0;
+     width: 100%;
+     z-index: 10;
    }
 
    #slide3 .title{
@@ -112,7 +121,7 @@ html, body {
    #slide3 .img{
      position: absolute;
      bottom:0px;
-     width:105%;
+     width:100%;
    }
 
    #slide4 .title{
@@ -138,5 +147,41 @@ html, body {
      position: absolute;
      bottom:0px;
      right:-70px;
+     width:90%;
+   }
+
+   #slide5 .title{
+     position: absolute;
+     top:20px;
+     right: 10px;
+   }
+
+   #slide5 .subtitle-1{
+     font-size: 28px;
+     position: absolute;
+     top:90px;
+     right: 20px;
+     background-color: red;
+     padding:5px;
+   }
+
+   #slide5 .subtitle-2{
+     font-size: 28px;
+     position: absolute;
+     top:140px;
+     right: 20px;
+   }
+
+   #slide5 .subtitle-3{
+     font-size: 28px;
+     position: absolute;
+     top:190px;
+     right: 20px;
+   }
+
+   #slide5 .img{
+     position: absolute;
+     bottom: 0;
+     left:-50px;
      width:90%;
    }
