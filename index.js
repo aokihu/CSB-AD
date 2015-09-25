@@ -9,7 +9,6 @@ $(function(){
     direction: 'vertical',
     // roundLengths:true,
     // parallax: true,
-    // hashnav: true,
         speed: 500,
        onInit: swiper => {
           // 初始化动画效果
@@ -23,14 +22,6 @@ $(function(){
 
   // after scroll end
   mySwiper.on('slideChangeEnd', (swiper) => {
-
-    // change background color
-    let color = backgroundColors[swiper.activeIndex];
-
-    setTimeout(()=>{
-      $body.css({'background':'#'+color});
-    },100);
-
     swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
 
   });

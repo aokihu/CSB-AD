@@ -17,7 +17,7 @@ html, body {
     }
 
     .swiper-slide {
-        text-align: center;
+        text-align: left;
         font-size: 18px;
         /*background: #fff;*/
         /* Center slide text vertically */
@@ -63,25 +63,80 @@ html, body {
 
    #slide2 .title{
      position: absolute;
-     bottom:30%;
-     left:10px;
+     top:30px;
+     left:20px;
      z-index: 11;
    }
 
    #slide2 .subtitle{
      position: absolute;
-     bottom:25%;
-     left:15px;
+     top:90px;
+     left:25px;
      z-index: 10;
+   }
+
+   #slide2 .text{
+     position: absolute;
+     top:130px;
+     left:25px;
+     z-index: 10;
+     width:85%;
    }
 
    #slide2 .img{
      position: absolute;
-     top:0;
-     left:0;
-     right:0;
+     left:15px;
      bottom:0;
-     background: url(img/bg-1.png);
-     background-position: center;
-     background-size: cover;
+     width: 140%;
+   }
+
+   #slide3 .title{
+     position: absolute;
+     left:15px;
+     top:30px;
+   }
+
+   #slide3 .subtitle{
+     position: absolute;
+     left:20px;
+     top:90px;
+   }
+
+   #slide3 .text{
+     position: absolute;
+     left:20px;
+     top:130px;
+     width:75%;
+   }
+
+   #slide3 .img{
+     position: absolute;
+     bottom:0px;
+     width:105%;
+   }
+
+   #slide4 .title{
+     position: absolute;
+     left:15px;
+     top:30px;
+   }
+
+   #slide4 .subtitle{
+     position: absolute;
+     left:20px;
+     top:90px;
+   }
+
+   #slide4 .text{
+     position: absolute;
+     left:20px;
+     top:130px;
+     width:65%;
+   }
+
+   #slide4 .img{
+     position: absolute;
+     bottom:0px;
+     right:-70px;
+     width:90%;
    }
