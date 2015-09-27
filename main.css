@@ -49,8 +49,8 @@ html, body {
    }
 
    .swiper-slide .title {
-       font-size: 41px;
-       font-weight: 300;
+       font-size: 36px;
+       font-weight: 200;
    }
    .swiper-slide .subtitle {
        font-size: 21px;
@@ -230,4 +230,55 @@ html, body {
      position: absolute;
      top:20px;
      height:90%;
+     left:30px;
+   }
+
+   #slide8 .title{
+     position:absolute;
+     left:25px;
+     bottom:50px;
+     z-index: 11;
+   }
+
+   #slide8 .subtitle{
+     position: absolute;
+     left:28px;
+     bottom:22px;
+     z-index: 11;
+   }
+
+   #slide8 .title-bg{
+     width:100%;
+     position: absolute;
+     right:-15px;
+     bottom:14px;
+     height: 95px;
+     z-index: 10;
+     background-color: #90a4ae;
+     box-shadow: 10px -10px 0 rgba(0,0,0,0.3);
+   }
+
+   #slide9 .title{
+     position:absolute;
+     left:25px;
+     bottom:50px;
+     z-index: 11;
+   }
+
+   #slide9 .subtitle{
+     position: absolute;
+     left:28px;
+     bottom:22px;
+     z-index: 11;
+   }
+
+   #slide9 .title-bg{
+     width:100%;
+     position: absolute;
+     right:-15px;
+     bottom:14px;
+     height: 95px;
+     z-index: 10;
+     background-color: #90a4ae;
+     box-shadow: 10px -10px 0 rgba(0,0,0,0.3);
    }
