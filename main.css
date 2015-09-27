@@ -200,3 +200,34 @@ html, body {
      top:30px;
      width:80%;
    }
+
+   #slide7 .title{
+     position:absolute;
+     left:25px;
+     bottom:50px;
+     z-index: 11;
+   }
+
+   #slide7 .subtitle{
+     position: absolute;
+     left:28px;
+     bottom:22px;
+     z-index: 11;
+   }
+
+   #slide7 .title-bg{
+     width:100%;
+     position: absolute;
+     right:-15px;
+     bottom:14px;
+     height: 95px;
+     z-index: 10;
+     background-color: #90a4ae;
+     box-shadow: 10px -10px 0 rgba(0,0,0,0.3);
+   }
+
+   #slide7 .bg-img{
+     position: absolute;
+     top:20px;
+     height:90%;
+   }
