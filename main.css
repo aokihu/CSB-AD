@@ -229,8 +229,8 @@ html, body {
    #slide7 .bg-img{
      position: absolute;
      top:20px;
-     height:90%;
-     left:30px;
+     width: 80%;
+     left:5%;
    }
 
    #slide8 .title{
@@ -245,6 +245,13 @@ html, body {
      left:28px;
      bottom:22px;
      z-index: 11;
+   }
+
+   #slide8 .bg-img{
+     position: absolute;
+     top:-10px;
+     width: 100%;
+     left:5%;
    }
 
    #slide8 .title-bg{
@@ -281,4 +288,15 @@ html, body {
      z-index: 10;
      background-color: #90a4ae;
      box-shadow: 10px -10px 0 rgba(0,0,0,0.3);
+   }
+
+   #slide9 .bg-img{
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     top:0;
+     left:0;
+     background: url('img/bg-embed.png') no-repeat;
+     background-size:150%;
+     background-position: 50% 0;
    }
